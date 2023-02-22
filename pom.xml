@@ -101,11 +101,11 @@
 <distributionManagement>
     <snapshotRepository>
       <id>nexus-snap</id>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-snap/</url>
     </snapshotRepository>
 	<repository>
 	  <id>nexus-snap</id>
-      <url>http://nexus-ci-cd-argocd.apps.cluster-87rqc.87rqc.sandbox3061.opentlc.com/repository/nexus-snap/</url>
+      <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-snap/</url>
     </repository>
   
   </distributionManagement>
