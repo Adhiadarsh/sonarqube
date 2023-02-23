@@ -15,7 +15,7 @@ spec:
         app: sonarqube
     spec:
       containers:
-        - image: quay.io/adhis/argo-05
+        - image: quay.io/adhis/argo-05:latest
           imagePullPolicy: Always
           name: sonarqube
           ports:
