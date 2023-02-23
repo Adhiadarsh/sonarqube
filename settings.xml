@@ -16,7 +16,7 @@
     <mirror>
       <id>nexus-proxy</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-proxy/</url>
+      <url>http://nexus-argocd-demo.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/proxy-repo/</url>
     </mirror>
   </mirrors>
   <profiles>
