@@ -36,7 +36,7 @@
        <repository>
          <id>nexus-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-argocd-demo.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-proxy/</url>
        </repository>      
      </repositories>
           
