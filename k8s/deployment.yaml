@@ -15,7 +15,7 @@ spec:
         app: sonarqube
     spec:
       containers:
-        - image: quay.io/praveenrachamreddy/ci-pipeline:latest
+        - image: quay.io/adhis/sonarqube:latest
           imagePullPolicy: Always
           name: sonarqube
           ports:
