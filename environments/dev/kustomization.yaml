@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:978250d0a58cf06505a8dcc70f413363c5d438f16df999aa2169dc6d1a620aa4
-  name: quay.io/sumitbiswal/jenkins-agent-maven
-  newName: quay.io/sumitbiswal/jenkins-agent-maven
+- digest: sha256:a6a3bd7fae2c746169c5f5e98cd4944c3bb6d3569f3b76f53c32b23f80b4726b
+  name: quay.io/adhis/java
+  newName: quay.io/adhis/java
