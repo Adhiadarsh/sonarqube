@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-argocd1.apps.ocp4.imss.com/</sonar.host.url>
-	       <sonar.login>sqa_5fa2f121e2ce54ebf4b18ec236a38d8a304957ad</sonar.login>
+               <sonar.host.url>https://sonar-argocd1.apps.ocp4.imss.com</sonar.host.url>
+	       <sonar.login>sqa_1efe67a027fe1c32a2f16ec5d3545472c9907f53</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
