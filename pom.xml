@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-argocd1.apps.ocp4.imss.com</sonar.host.url>
-	       <sonar.login>sqa_1efe67a027fe1c32a2f16ec5d3545472c9907f53</sonar.login>
+               <sonar.host.url>https://sonar-arocd.apps.cluster-jmqkj.jmqkj.sandbox2507.opentlc.com/</sonar.host.url>
+	       <sonar.login>sqa_e0a581c21d33169c9ee44f4b221a94956adfacba</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -101,11 +101,11 @@
 <distributionManagement>
     <snapshotRepository>
       <id>adhi-snap</id>
-      <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-snap/</url>
+      <url>http://nexus-arocd.apps.cluster-jmqkj.jmqkj.sandbox2507.opentlc.com/repository/adhi-snap/</url>
     </snapshotRepository>
 	<repository>
 	  <id>adhi-snap</id>
-      <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-snap/</url>
+      <url>http://nexus-arocd.apps.cluster-jmqkj.jmqkj.sandbox2507.opentlc.com/repository/adhi-snap/</url>
     </repository>
   
   </distributionManagement>
