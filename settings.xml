@@ -7,16 +7,16 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>nexus-snap</id>
+      <id>adhis-snap</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
   </servers>
   <mirrors>
     <mirror>
-      <id>nexus-proxy</id>
+      <id>adhi-proxy</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-argocd-demo.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/proxy-repo/</url>
+      <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -34,9 +34,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>nexus-snap</id>
+         <id>adhis-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-argocd-demo.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-proxy/</url>
+         <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-snap/</url>
        </repository>      
      </repositories>
           
@@ -45,9 +45,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>nexus-snap</id>
+         <id>adhi-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-snap/</url>
+         <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-snap/</url>
        </repository>
      </repositories>
    </profile>
