@@ -16,7 +16,7 @@
     <mirror>
       <id>adhi-proxy</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-proxy/</url>
+      <url>http://nexus-arocd.apps.cluster-jmqkj.jmqkj.sandbox2507.opentlc.com/repository/adhi-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
