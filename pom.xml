@@ -61,8 +61,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-               <sonar.host.url>https://sonar-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/</sonar.host.url>
-	       <sonar.login>sqa_3d9f885746dfedf393b0e9de04bf5adcfbeb4931</sonar.login>
+               <sonar.host.url>https://sonar-argocd1.apps.ocp4.imss.com/</sonar.host.url>
+	       <sonar.login>sqa_5fa2f121e2ce54ebf4b18ec236a38d8a304957ad</sonar.login>
                <sonar.projectName>demo</sonar.projectName>
                <sonar.projectVersion>main</sonar.projectVersion>
                <sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
@@ -100,12 +100,12 @@
     </profiles>
 <distributionManagement>
     <snapshotRepository>
-      <id>nexus-snap</id>
-      <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-snap/</url>
+      <id>adhi-snap</id>
+      <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-snap/</url>
     </snapshotRepository>
 	<repository>
-	  <id>nexus-snap</id>
-      <url>http://nexus-sonarqube.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/nexus-snap/</url>
+	  <id>adhi-snap</id>
+      <url>http://nexus-argocd1.apps.ocp4.imss.com/repository/adhi-snap/</url>
     </repository>
   
   </distributionManagement>
