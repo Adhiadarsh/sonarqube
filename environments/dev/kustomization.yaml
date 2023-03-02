@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:a6a3bd7fae2c746169c5f5e98cd4944c3bb6d3569f3b76f53c32b23f80b4726b
-  name: quay.io/adhis/java
-  newName: quay.io/adhis/java
+- digest: sha256:e437595b20887da02d37949296f9300935b40a94eadd31860c1a751945d024e7
+  name: quay.io/adhis/argo-05
+  newName: quay.io/adhis/argo-05
