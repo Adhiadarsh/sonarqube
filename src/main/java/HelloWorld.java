@@ -11,7 +11,7 @@
 public class HelloWorld {
 
     public void sayHello() {
-        System.out.println("Hi friends");
+        System.out.println("Hi friends..");
     }
 
     public void notCovered() {
